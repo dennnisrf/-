@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин «Юмими» — Волгоград</title>
+    <style>
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Шапка */
+        header {
+            background: #e74c3c;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Основной контент */
+        main {
+            padding: 2rem 0;
+        }
+        section {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #e74c3c;
+            margin-bottom: 1rem;
+        }
+
+        /* Контакты и карта */
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .contact-item {
+            flex: 1;
+            min-width: 250px;
+        }
+        .map-container {
+            height: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* Кнопка */
+        .btn {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Подвал */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <h1>Магазин «Юмими»</h1>
+            <p>Остановка «3‑я школа», Волгоград</p>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="container">
+        <!-- О магазине -->
+        <section>
+            <h2>О нашем магазине</h2>
+            <p>Добро пожаловать в «Юмими» — уютный магазин у остановки «3‑я школа» в Волгограде. У нас вы найдёте свежие продукты, напитки, снеки и всё необходимое для быстрого перекуса.</p>
+            <p>Мы работаем для вас каждый день, чтобы сделать вашу жизнь немного проще и вкуснее!</p>
+        </section>
+
+        <!-- Часы работы -->
+        <section>
+            <h2>Часы работы</h2>
+            <ul>
+                <li><strong>Понедельник — Воскресенье:</strong> 10:00–20:00</li>
+                <li><strong>Без перерывов и выходных</strong></li>
+            </ul>
+        </section>
+
+        <!-- Контакты -->
+        <section>
+            <h2>Контакты</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Адрес</h3>
+                    <p>г. Волгоград, остановка «3‑я школа»</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Телефон</h3>
+                    <p><a href="tel:+79608855006">+796088555006</a></p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Как нас найти -->
+        <section>
+            <h2>Как нас найти</h2>
+            <p>Мы находимся прямо у остановки общественного транспорта «3‑я школа». Легко заметить наш яркий фасад с вывеской «Юмими».</p>
+            <a href="https://yandex.ru/maps/-/CPtzZ4Nh" target="_blank" class="btn">Открыть карту в Яндекс Картах</a>
+
+            <!--https://yandex.ru/maps/-/CPtzZ4Nh-->
+            <div class="map-container">
+                <p style="text-align: center; padding: 1rem;">Здесь будет интерактивная карта с расположением магазина</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Магазин «Юмими». Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
